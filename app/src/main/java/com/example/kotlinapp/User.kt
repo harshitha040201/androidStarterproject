@@ -1,4 +1,4 @@
-package com.example.kotlinapp.domain.model
+package com.example.kotlinapp
 
 data class User(
     val id: Int,

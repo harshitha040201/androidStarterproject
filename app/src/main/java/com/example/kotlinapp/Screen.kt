@@ -1,4 +1,4 @@
-package com.example.kotlinapp.presentation.navigation
+package com.example.kotlinapp
 
 sealed class Screen(val route: String) {
     data object UserList : Screen("userList")

@@ -1,6 +1,4 @@
-package com.example.kotlinapp.presentation.userdetail
-
-import com.example.kotlinapp.domain.model.User
+package com.example.kotlinapp
 
 sealed interface UserDetailUiState {
     data object Loading : UserDetailUiState
