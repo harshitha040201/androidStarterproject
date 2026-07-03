@@ -1,8 +1,9 @@
 package com.example.kotlinapp.data.repository
 
-import com.example.kotlinapp.data.remote.UserApiService
-import com.example.kotlinapp.data.remote.dto.UserDto
-import com.example.kotlinapp.domain.connectivity.ConnectivityChecker
+import com.example.kotlinapp.UserRepositoryImpl
+import com.example.kotlinapp.UserApiService
+import com.example.kotlinapp.UserDto
+import com.example.kotlinapp.ConnectivityChecker
 import com.google.common.truth.Truth.assertThat
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest

@@ -1,7 +1,5 @@
-package com.example.kotlinapp.domain.usecase
+package com.example.kotlinapp
 
-import com.example.kotlinapp.domain.model.User
-import com.example.kotlinapp.domain.repository.UserRepository
 import javax.inject.Inject
 
 class GetUsersUseCase @Inject constructor(

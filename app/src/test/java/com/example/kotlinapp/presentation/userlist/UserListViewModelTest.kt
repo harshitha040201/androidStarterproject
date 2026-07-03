@@ -1,8 +1,10 @@
 package com.example.kotlinapp.presentation.userlist
 
 import app.cash.turbine.test
-import com.example.kotlinapp.domain.model.User
-import com.example.kotlinapp.domain.usecase.GetUsersUseCase
+import com.example.kotlinapp.User
+import com.example.kotlinapp.GetUsersUseCase
+import com.example.kotlinapp.UserListUiState
+import com.example.kotlinapp.UserListViewModel
 import com.google.common.truth.Truth.assertThat
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi

@@ -1,4 +1,4 @@
-package com.example.kotlinapp.presentation.userlist
+package com.example.kotlinapp
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -28,7 +28,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.kotlinapp.domain.model.User
+import com.example.kotlinapp.UserListUiState
+import com.example.kotlinapp.UserListViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

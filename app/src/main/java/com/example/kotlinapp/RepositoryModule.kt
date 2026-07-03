@@ -1,7 +1,6 @@
-package com.example.kotlinapp.di
+package com.example.kotlinapp
 
-import com.example.kotlinapp.data.repository.UserRepositoryImpl
-import com.example.kotlinapp.domain.repository.UserRepository
+import com.example.kotlinapp.UserRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

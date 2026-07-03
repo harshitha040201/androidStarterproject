@@ -1,4 +1,4 @@
-package com.example.kotlinapp.presentation.userdetail
+package com.example.kotlinapp
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -26,7 +26,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.kotlinapp.domain.model.User
+import com.example.kotlinapp.UserDetailUiState
+import com.example.kotlinapp.UserDetailViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

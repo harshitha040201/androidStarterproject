@@ -1,6 +1,4 @@
-package com.example.kotlinapp.domain.repository
-
-import com.example.kotlinapp.domain.model.User
+package com.example.kotlinapp
 
 interface UserRepository {
     suspend fun getUsers(): Result<List<User>>

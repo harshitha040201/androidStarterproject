@@ -1,7 +1,5 @@
-package com.example.kotlinapp.di
+package com.example.kotlinapp
 
-import com.example.kotlinapp.BuildConfig
-import com.example.kotlinapp.data.remote.UserApiService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

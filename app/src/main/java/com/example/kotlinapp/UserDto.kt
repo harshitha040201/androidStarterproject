@@ -1,6 +1,6 @@
-package com.example.kotlinapp.data.remote.dto
+package com.example.kotlinapp
 
-import com.example.kotlinapp.domain.model.User
+import com.example.kotlinapp.User
 import com.google.gson.annotations.SerializedName
 
 data class UserDto(

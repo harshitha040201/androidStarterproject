@@ -1,14 +1,13 @@
-package com.example.kotlinapp.data.repository
+package com.example.kotlinapp
 
-import com.example.kotlinapp.data.remote.UserApiService
-import com.example.kotlinapp.data.remote.dto.toDomain
-import com.example.kotlinapp.domain.connectivity.ConnectivityChecker
-import com.example.kotlinapp.domain.model.User
-import com.example.kotlinapp.domain.repository.UserRepository
-import com.example.kotlinapp.domain.exception.NoConnectivityException
+import com.example.kotlinapp.ConnectivityChecker
+import com.example.kotlinapp.NoConnectivityException
+import com.example.kotlinapp.User
+import com.example.kotlinapp.UserRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
+
 class UserRepositoryImpl @Inject constructor(
     private val api: UserApiService,
     private val connectivityChecker: ConnectivityChecker

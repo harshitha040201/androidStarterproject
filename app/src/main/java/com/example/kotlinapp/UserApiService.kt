@@ -1,6 +1,5 @@
-package com.example.kotlinapp.data.remote
+package com.example.kotlinapp
 
-import com.example.kotlinapp.data.remote.dto.UserDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 

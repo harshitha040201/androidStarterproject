@@ -1,7 +1,8 @@
 package com.example.kotlinapp.domain.usecase
 
-import com.example.kotlinapp.domain.model.User
-import com.example.kotlinapp.domain.repository.UserRepository
+import com.example.kotlinapp.GetUsersUseCase
+import com.example.kotlinapp.User
+import com.example.kotlinapp.UserRepository
 import com.google.common.truth.Truth.assertThat
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest

@@ -6,9 +6,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.kotlinapp.presentation.navigation.Screen
-import com.example.kotlinapp.presentation.userdetail.UserDetailScreen
-import com.example.kotlinapp.presentation.userlist.UserListScreen
+import com.example.kotlinapp.Screen
+import com.example.kotlinapp.UserDetailScreen
+import com.example.kotlinapp.UserListScreen
 
 @Composable
 fun UsersNavGraph() {
