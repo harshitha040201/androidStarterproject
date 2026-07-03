@@ -1,6 +1,7 @@
-package com.example.kotlinapp
+package com.example.kotlinapp.detail
 
-import com.example.kotlinapp.ConnectivityChecker
+import com.example.kotlinapp.detail.ConnectivityChecker
+import com.example.kotlinapp.detail.ConnectivityCheckerImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

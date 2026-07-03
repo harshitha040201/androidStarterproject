@@ -3,7 +3,7 @@ package com.example.kotlinapp
 import retrofit2.http.GET
 import retrofit2.http.Path
 
-interface UserApiService {
+interface   UserApiService {
     @GET("posts")
     suspend fun getUsers(): List<UserDto>
 

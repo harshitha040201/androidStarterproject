@@ -1,7 +1,7 @@
 package com.example.kotlinapp
 
-import com.example.kotlinapp.ConnectivityChecker
-import com.example.kotlinapp.NoConnectivityException
+import com.example.kotlinapp.detail.ConnectivityChecker
+import com.example.kotlinapp.detail.NoConnectivityException
 import com.example.kotlinapp.User
 import com.example.kotlinapp.UserRepository
 import kotlinx.coroutines.Dispatchers

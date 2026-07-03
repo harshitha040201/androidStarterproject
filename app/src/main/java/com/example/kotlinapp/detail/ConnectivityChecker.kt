@@ -1,4 +1,4 @@
-package com.example.kotlinapp
+package com.example.kotlinapp.detail
 
 interface ConnectivityChecker {
     fun isConnected(): Boolean

@@ -1,11 +1,11 @@
-package com.example.kotlinapp
+package com.example.kotlinapp.detail
 
 import android.Manifest
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import androidx.annotation.RequiresPermission
-import com.example.kotlinapp.ConnectivityChecker
+import com.example.kotlinapp.detail.ConnectivityChecker
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 

@@ -1,4 +1,4 @@
-package com.example.kotlinapp
+package com.example.kotlinapp.detail
 
 /**
  * Thrown when a network operation is attempted with no active internet

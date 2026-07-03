@@ -1,6 +1,5 @@
 package com.example.kotlinapp
 
-import com.example.kotlinapp.User
 import com.google.gson.annotations.SerializedName
 
 data class UserDto(

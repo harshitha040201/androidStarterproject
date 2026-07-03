@@ -1,8 +1,11 @@
-package com.example.kotlinapp
+package com.example.kotlinapp.detail
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.kotlinapp.detail.GetUserByIdUseCase
+import com.example.kotlinapp.Screen
+import com.example.kotlinapp.detail.UserDetailUiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
